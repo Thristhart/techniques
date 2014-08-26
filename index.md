@@ -4,7 +4,6 @@ layout: default
 published: true
 ---
 
-hello world!!!
 {% for category in site.visible-categories %}
 ### {{ category }}
 <ul>
