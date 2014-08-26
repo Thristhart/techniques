@@ -9,13 +9,13 @@ This is my test map:
 ![](assets/test_map_01.png)
 
 If you're familiar with the source engine mapping scene, you probably recognize the dev measure texture (in this case, devmeasuregeneric01b). 
-It's a very useful texture to use, because it allows you to see the distance between objects at a glance. Oftentimes, TF2 mappers start their maps entirely with dev textures, to help them get the shape and balance of the map right without needing to deal with detail. Gameplay test versions of the maps use the dev textures to communicate that the map is unfinished and the important aspect to be tested is map balance rather than aesthetics.
+It's a very useful texture, because it allows you to see the distance between objects at a glance. Often, TF2 mappers start their maps entirely with dev textures, to help them get the shape and balance of the map right without needing to deal with detail. Gameplay test versions of the maps use the dev textures to communicate that the map is unfinished and the important thing being tested is map balance rather than aesthetics.
 
-Unfortunately, by default Hammer and Dota will not generate a navmesh on this texture. The reason for this is that hammer will not generate a navigation mesh on textures that lack the dota.nav.walkable attribute.
+Unfortunately, by default Hammer and Dota will not generate a navmesh on this texture. The reason for this is that hammer will not generate a navigation mesh on textures that lack the dota.nav.walkable attribute. 
 ![](assets/test_map_no_nav.png)
-
+mod_radiant_000 has the walkable property, and will therefore generate a nav mesh, unlike devmeasuregeneric01b.
 ![](assets/dota_nav_walkable_assetinfo.png)
-mod_radiant_000 has the walkable property
+
 
 As a side note, it's possible to filter in the material browser for only walkable textures.
 <video src="assets/filter_by_walkable.webm" autoplay loop >
