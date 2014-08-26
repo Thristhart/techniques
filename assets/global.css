@@ -6,7 +6,7 @@ video {
     clear: right
 }
 article {
-	max-width: 60 em;
-	max-width: 60 rem;
+	max-width: 60em;
+	max-width: 60rem;
     margin: auto;
 }
