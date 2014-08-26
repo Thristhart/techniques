@@ -3,7 +3,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
+      type: "page"
     values:
-      permalink: "none"
+      permalink: "pretty"
       layout: "default"
