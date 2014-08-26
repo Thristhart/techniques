@@ -2,10 +2,12 @@
   <head>
     <title>{{ page.title }}</title>
   </head>
+  <base href="{{site.baseurl}}/" />
   <body>
 {% capture category %}{{page.path  | replace_first:'/index.md',''}}{% endcapture %}
     <h1>{{ page.title }}</h1>
-    <ul id="navigation">
+    {% include navigation.html %}
+    <ul class="pagelist">
 {% for page in site.pages %}
 {% if page.categories contains category %}
 <li><a href="{{ page.url | replace_first:'/',''}}">{{ page.title }}</a></li>
