@@ -1,0 +1,12 @@
+body {
+	
+}
+video {
+	clear: left
+    clear: right
+}
+article {
+	max-width: 60 em;
+	max-width: 60 rem;
+    margin: auto;
+}
