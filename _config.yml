@@ -5,5 +5,5 @@ defaults:
       path: ""
       type: "page"
     values:
-      layout: "default"
+      layout: "pages"
 visible-categories: [dota]
