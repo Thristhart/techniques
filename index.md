@@ -10,7 +10,7 @@ hello world!!!
 <ul>
 {% for page in site.pages %}
 {% if page.categories contains category %}
-<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+<li><a href="{{ page.id }}">{{ page.title }}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}
