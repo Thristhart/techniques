@@ -4,13 +4,14 @@
   </head>
   <body>
 {% for page in site.pages %}
-    {% capture category %}{{page.path  | replace_first:'/index.md',''}}{% endcapture %}
+    {% capture cat %}{{page.path  | replace_first:'/index.md',''}}{% endcapture %}
 {% if page.categories contains category %}
 <li><a href="{{ page.url | replace_first:'/',''}}">{{ page.title }}</a></li>
 {% endif %}
 {% endfor %}
-    {{category}}
+    {{cat}}
     {{page.path}}
+    {{page.path| replace_first:'/index.md',''}}
     {{page.url}}
     {{ content }}
   </body>
