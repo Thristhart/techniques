@@ -17,8 +17,9 @@ Unfortunately, by default Hammer and Dota will not generate a navmesh on this te
 ![](assets/dota_nav_walkable_assetinfo.png)
 mod_radiant_000 has the walkable property
 
-As a side note, it's possible to filter in the material browser for only walkable textures:
+As a side note, it's possible to filter in the material browser for only walkable textures.
 <video src="assets/filter_by_walkable.webm" autoplay loop />
+</video>
 
 There are a couple options to work around this.
 
@@ -28,9 +29,8 @@ You could use toolsclip to manually create navigatable areas. This works, but ta
 
 The best way is to modify the texture to add the attribute dota.nav.walkable: 1. There are two ways to do this: the material editor, or just a text editor.
 
-With the material editor:
-
-<video src="assets/material_editor_set_walkable.webm" autoplay loop />
+<video src="assets/material_editor_set_walkable.webm" autoplay loop>
+</video>
 
 or simply modify the .vmat file in a text editor. (Here's dota_addons\testing_grounds\materials\dev\dev_measuregeneric01b.vmat):
 ```
