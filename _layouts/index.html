@@ -4,7 +4,7 @@
   </head>
   <body>
 {% for page in site.pages %}
-{% if page.categories contains page.path | replace_first:'/index.md','' %}
+{% if page.categories contains page.path %}
 <li><a href="{{ page.url | replace_first:'/',''}}">{{ page.title }}</a></li>
 {% endif %}
 {% endfor %}
