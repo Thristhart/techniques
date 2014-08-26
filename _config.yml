@@ -8,5 +8,3 @@ defaults:
       layout: "pages"
 visible-categories: [dota]
 baseurl: /techniques
-kramdown:
-  input: GFM
