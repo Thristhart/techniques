@@ -1,9 +1,9 @@
 timezone: America/Phoenix
 defaults:
 	-
-	scope:
-		path: ""
-		type: "pages"
-	values:
-		permalink: "none"
-		layout: "default"
+		scope:
+			path: ""
+			type: "pages"
+		values:
+			permalink: "none"
+			layout: "default"
