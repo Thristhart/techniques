@@ -33,7 +33,7 @@ The best way is to modify the texture to add the attribute dota.nav.walkable: 1.
 </video>
 
 Instead of using the Material Editor, one can also simply modify the .vmat file in a text editor. (Here's dota_addons\testing_grounds\materials\dev\dev_measuregeneric01b.vmat):
-```
+{% highlight %}
 // THIS FILE IS AUTO-GENERATED
 
 Layer0
@@ -51,4 +51,4 @@ Layer0
 		dota.nav.walkable "1"
 	}
 }
-```
+{% endhighlight %}
