@@ -1,5 +1,6 @@
 ---
 title: Technique Repository
+layout: default
 published: true
 ---
 
@@ -9,7 +10,7 @@ hello world!!!
 <ul>
 {% for page in site.pages %}
 {% if page.categories contains category %}
-<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+<li><a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a></li>
 {% endif %}
 {% endfor %}
 {% endfor %}
