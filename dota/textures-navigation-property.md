@@ -51,3 +51,6 @@ Layer0
 	}
 }
 {% endhighlight %}
+
+It should be noted that many textures that come with dota are only available in the vmat_c format. My understanding is that these textures have not yet been decompiled, but you should pay attention to @ToraxXx's [Source 2 Resource Decompiler](https://github.com/ToraxXx/source_2_resource_decompiler) project, which can already successfully decompile particles.
+If you have a compiled texture that you want to make navigable, it might be possible to simply edit the vmat_c file, as it is mostly plaintext. I have not experimented with this, however.
