@@ -4,7 +4,7 @@
   </head>
   <body>
 {% capture category %}{{page.path  | replace_first:'/index.md',''}}{% endcapture %}
-    <ul>
+    <ul id="navigation">
 {% for page in site.pages %}
 {% if page.categories contains category %}
 <li><a href="{{ page.url | replace_first:'/',''}}">{{ page.title }}</a></li>
