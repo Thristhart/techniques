@@ -5,5 +5,4 @@ defaults:
       path: ""
       type: "page"
     values:
-      permalink: "pretty"
       layout: "default"
