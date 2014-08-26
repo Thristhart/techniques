@@ -4,4 +4,4 @@ published: true
 ---
 
 hello world!!!
-{{ site.categories.dota }}
+{{ site.visible-categories }}
