@@ -30,7 +30,7 @@ The best way is to modify the texture to add the attribute dota.nav.walkable: 1.
 
 With the material editor:
 
-<video src="assets/material_editor_set_walkable.webm" autoplay loop width=600 />
+<video src="assets/material_editor_set_walkable.webm" autoplay loop />
 
 or simply modify the .vmat file in a text editor. (Here's dota_addons\testing_grounds\materials\dev\dev_measuregeneric01b.vmat):
 ```
