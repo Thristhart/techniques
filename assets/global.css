@@ -1,9 +1,7 @@
-body {
-	
-}
-video {
-	clear: left
-    clear: right
+video img {
+  margin: auto;
+  display: block;
+  max-width: 100%;
 }
 article {
 	max-width: 60em;
