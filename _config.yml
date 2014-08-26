@@ -7,4 +7,4 @@ defaults:
     values:
       layout: "pages"
 visible-categories: [dota]
-baseurl: /techniques/
+baseurl: /techniques
