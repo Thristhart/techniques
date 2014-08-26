@@ -1,9 +1,13 @@
 <html>
   <head>
-    <title>{{ page.title }}</title>
+    <title>{{ page.path }}</title>
   </head>
   <body>
-    index page!
+{% for page in site.pages %}
+{% if page.categories contains page.path %}
+<li><a href="{{ page.url | replace_first:'/',''}}">{{ page.title }}</a></li>
+{% endif %}
+{% endfor %}
     {{ content }}
   </body>
 </html>
