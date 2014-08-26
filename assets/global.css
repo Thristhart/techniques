@@ -48,4 +48,5 @@ header h1 {
 .pagelist {
   max-width: 70em;
   max-width: 70rem;
+  margin: auto;
 }
