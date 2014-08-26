@@ -4,10 +4,13 @@ article video, article img {
   max-width: 100%;
 }
 article {
-	max-width: 60em;
-	max-width: 60rem;
-    margin: auto;
-  	font-family: 'Open Sans', sans-serif;
+  max-width: 60em;
+  max-width: 60rem;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+article p {
+  
 }
 header h1 {
   width: 100%;
