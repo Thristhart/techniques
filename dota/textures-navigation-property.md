@@ -9,7 +9,7 @@ This is my test map:
 ![](assets/test_map_01.png)
 
 If you're familiar with the source engine mapping scene, you probably recognize the dev measure texture (in this case, devmeasuregeneric01b). 
-It's a very useful texture to use, because it allows you to see the distance between objects at a glance. Oftentimes, TF2 mappers start their maps entirely with dev textures, to help them get the shape and balance of the map right without needing to deal with detail. Gameplay test versions of the maps use the dev textures, to communicate that the map is unfinished and the important aspect to be tested is map balance rather than aesthetics.
+It's a very useful texture to use, because it allows you to see the distance between objects at a glance. Oftentimes, TF2 mappers start their maps entirely with dev textures, to help them get the shape and balance of the map right without needing to deal with detail. Gameplay test versions of the maps use the dev textures to communicate that the map is unfinished and the important aspect to be tested is map balance rather than aesthetics.
 
 Unfortunately, by default Hammer and Dota will not generate a navmesh on this texture. The reason for this is that hammer will not generate a navigation mesh on textures that lack the dota.nav.walkable attribute.
 ![](assets/test_map_no_nav.png)
@@ -29,7 +29,7 @@ You could use toolsclip to manually create navigatable areas. This works, but ta
 The best way is to modify the texture to add the attribute dota.nav.walkable: 1. There are two ways to do this: the material editor, or just a text editor.
 
 With the material editor:
-<video src="assets/material_editor_set_walkable.webm" autoplay loop width:400/>
+<video src="assets/material_editor_set_walkable.webm" autoplay loop width=600/>
 
 or simply modify the .vmat file in a text editor. (Here's dota_addons\testing_grounds\materials\dev\dev_measuregeneric01b.vmat):
 ```
