@@ -10,7 +10,8 @@ article {
   font-family: 'Open Sans', sans-serif;
 }
 article p {
-  margin-bottom: 1em;
+  margin-bottom: 1.7em;
+  line-height: 1.4;
 }
 header h1 {
   width: 100%;
