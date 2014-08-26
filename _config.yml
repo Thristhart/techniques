@@ -6,3 +6,4 @@ defaults:
       type: "page"
     values:
       layout: "default"
+visible-categories: [dota]
