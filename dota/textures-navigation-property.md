@@ -18,7 +18,7 @@ Unfortunately, by default Hammer and Dota will not generate a navmesh on this te
 mod_radiant_000 has the walkable property
 
 As a side note, it's possible to filter in the material browser for only walkable textures.
-<video src="assets/filter_by_walkable.webm" autoplay loop />
+<video src="assets/filter_by_walkable.webm" autoplay loop >
 </video>
 
 There are a couple options to work around this.
