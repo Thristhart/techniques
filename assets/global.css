@@ -36,6 +36,6 @@ header h1 {
   display: inline;
   margin-right: 1em;
 }
-#navigation a:visited {
+#navigation:link {
   color: white;
 }
