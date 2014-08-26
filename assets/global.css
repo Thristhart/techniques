@@ -44,3 +44,8 @@ header h1 {
 #navigation a:hover {
   text-decoration: underline;
 }
+
+.pagelist {
+  max-width: 70em;
+  max-width: 70rem;
+}
