@@ -1,8 +1,14 @@
 ---
-title: Keeping track of players in Dota 2 Lua
-categories: [dota, programming]
+title: A trap that activates abilities
+categories: 
+  - dota
+  - programming
+published: true
 ---
 
-alert
-====
-this is a test of the emergency markdown system
+Here's the end goal:
+(video goes here)
+We accomplish this through a trigger_dota firing a function on an npc_dota_base that fires an ability at the location of an info_target.
+(hammer screenshots)
+(functions)
+(link to repository)
