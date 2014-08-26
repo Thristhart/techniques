@@ -1,8 +1,0 @@
-timezone: America/Phoenix
-defaults:
-  scope:
-    path: ""
-    type: "posts"
-  values:
-    permalink: "none"
-    layout: "default"
