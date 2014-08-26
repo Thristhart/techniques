@@ -1,6 +1,5 @@
 ---
-title: Keeping track of players in Dota2 Lua
-published: true
+title: Keeping track of players in Dota 2 Lua
 categories: [dota, programming]
 ---
 
