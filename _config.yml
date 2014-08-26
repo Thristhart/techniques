@@ -6,5 +6,11 @@ defaults:
       type: "page"
     values:
       layout: "pages"
+  -
+    scope:
+      path: "index.html"
+      type: "page"
+    values:
+      layout: "index"
 visible-categories: [dota]
 baseurl: /techniques
