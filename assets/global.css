@@ -27,7 +27,7 @@ header h1 {
 #navigation a:hover {
   text-decoration: underline;
 }
-article {
+#content {
   max-width: 60em;
   max-width: 60rem;
   margin: 0 auto 1em auto;
@@ -37,11 +37,11 @@ article {
   border-radius: 1em;
   background-color: #EEEEEE;
 }
-article p {
+#content p {
   margin-bottom: 1.7em;
   line-height: 1.4;
 }
-article video, article img {
+#content video, article img {
   margin: auto;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
