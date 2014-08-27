@@ -27,6 +27,10 @@ header h1 {
 #navigation a:hover {
   text-decoration: underline;
 }
+footer #navigation {
+  position: absolute;
+  bottom: 0;
+}
 #content {
   max-width: 60em;
   max-width: 60rem;
