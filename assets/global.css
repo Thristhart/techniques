@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #4C7EB1;  
+  min-height: 100%;
+  position: relative;
 }
 header {
   color: white;
@@ -27,7 +29,7 @@ header h1 {
 #navigation a:hover {
   text-decoration: underline;
 }
-footer #navigation {
+footer {
   position: absolute;
   bottom: 0;
 }
