@@ -13,3 +13,4 @@ published: true
 {% endif %}
 {% endfor %}
 {% endfor %}
+</ul>

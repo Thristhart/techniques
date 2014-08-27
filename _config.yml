@@ -10,3 +10,5 @@ visible-categories: [dota]
 baseurl: /techniques
 kramdown:
   input: GFM
+gems:
+- jekyll-mentions

@@ -3,17 +3,17 @@
 	<head>
     	<title>{{ title }}</title>
    		{% include base.html %}
-    	<link href="assets/fruity.css" rel="stylesheet" type="text/css" />
-    	<link href="assets/global.css" rel="stylesheet" type="text/css"  />
-      	<link href='http://fonts.googleapis.com/css?family=Bowlby+One+SC' rel='stylesheet' type='text/css'>
 	</head>
     <body>
       	<header>
     		{% include navigation.html %}
           	<h1>{{ page.title }}</h1>
       	</header>
-      	<article>
+      	<article id="content">
     		{{ content }}
       	</article>
+      	<footer>
+        	{% include navigation.html %}  
+      	</footer>
     </body>
 </html>
