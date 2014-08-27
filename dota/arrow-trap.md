@@ -44,7 +44,7 @@ And then we change its Object Properties so that it has a unique name, so that i
 Our NPC is ready to be told to shoot arrows, but it needs to be told that by something. That something will be a trigger_dota. First, we select the toolsstrigger.vmat material, and create a mesh with it.
 <video src="assets/create_dota_trigger.webm" autoplay loop>
 </video>
-Next, we click "Tie Mesh To Entity" and change the entity to trigger_dota. (I have hammer configured to default to trigger_dota, but it is likely yours defaults to trigger_multiple.)
+Next, we click "Tie Selected Meshes To Entity" and change the entity to trigger_dota. (I have hammer configured to default to trigger_dota, but it is likely yours defaults to trigger_multiple.)
 <video src="assets/tie_trigger_dota_entity.webm" autoplay loop>
 </video>
 Finally, we hit Alt+Enter to open up the trigger_dota's detailed object properties. From here, we select the Outputs tab, and click Add to create a new output. We want to respond to a player triggering the trap, so we will use an OnTrigger output. We select the npc_arrow_trap1 that we named earlier (or whatever unique name you used) as the target. The npc_dota_base has an input named CallScriptFunction, which will call a function from the Entity Scripts that are associated with it. We are going to name that function Fire, so we'll use the parameter Fire.
