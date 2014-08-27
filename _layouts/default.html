@@ -1,11 +1,12 @@
 <html>
   <head>
-    <title>{{page.title}}</title>
+    <title>{{ page.title }}</title>
     {% include base.html %}
   </head>
   <body>
     <header>
       {% include navigation.html %}
+      <h1>{{ page.title }}</h1>
     </header>
     <div id="content">
     	{{content}}
