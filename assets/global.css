@@ -51,6 +51,7 @@ footer {
   min-height: 50%;
   border-image: url(content-border.png) 13 round;
   border-width: 12;
+  border-style: solid;
 }
 #content p {
   margin-bottom: 1.7em;
