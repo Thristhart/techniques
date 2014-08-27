@@ -50,8 +50,11 @@ Next, we click "Tie Selected Meshes To Entity" and change the entity to trigger_
 Finally, we hit Alt+Enter to open up the trigger_dota's detailed object properties. From here, we select the Outputs tab, and click Add to create a new output. We want to respond to a player triggering the trap, so we will use an OnTrigger output. We select the npc_arrow_trap1 that we named earlier (or whatever unique name you used) as the target. The npc_dota_base has an input named CallScriptFunction, which will call a function from the Entity Scripts that are associated with it. We are going to name that function Fire, so we'll use the parameter Fire.
 <video src="assets/trigger_dota_outputs.webm" autoplay loop>
 </video>
-That's it as far as Hammer is concerened. I added a little decoration to create the appearance of a "launcher", but that's completely optional.
+That's it as far as Hammer is concerned. I added a little decoration to create the appearance of a "launcher", but that's completely optional.
 ![](assets/arrow_trap_hammer_decoration.png)
+
+We're almost done! All that's left is to create the Fire function in  ```scripts\vscripts\arrow_trap_ai.lua``` (or whatever path you put into the Entity Scripts field on your npc_dota_arrow_trap)
+
 
 (functions)
 (link to repository)
