@@ -12,5 +12,5 @@ published: true
 <li><a href="{{ page.url | replace_first:'/',''}}">{{ page.title }}</a></li>
 {% endif %}
 {% endfor %}
-{% endfor %}
 </ul>
+{% endfor %}
