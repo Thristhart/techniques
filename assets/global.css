@@ -29,6 +29,9 @@ header h1 {
 #navigation a:hover {
   text-decoration: underline;
 }
+header #navigation {
+  margin-top: 0.1em;
+}
 footer {
   position: absolute;
   bottom: 0;
