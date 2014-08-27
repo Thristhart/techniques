@@ -38,10 +38,10 @@ Our map will eventually look like this:
 First things first, we place an npc_dota_base where we want arrows to come from:
 <video src="assets/place_npc_dota_base.webm" autoplay loop>
 </video>
-And then we change its Object Properties so that it has a unique name, so that it will load arrow_trap_ai.lua on creation, and so that it knows that it is an npc_dota_arrow_trap.
+And then we change its Object Properties so that it has a unique name, so that our trigger_dota will be able to connect to it. We assign it the Entity Script arrow_trap_ai.lua, which we will create later. Finally, we set the Unit Name to npc_dota_arrow_trap, so that a unit of the correct type is created.
 <video src="assets/npc_dota_base_settings.webm" autoplay loop>
 </video>
-Our NPC is ready to be told to shoot arrows, but it needs to be told that by something. That something will be a trigger_dota. First, we select the toolsstrigger.vmat material, and create a mesh with it.
+Our NPC is ready to be told to shoot arrows, but it needs to be told that by something. That something will be our trigger_dota. First, we select the toolsstrigger.vmat material, and create a mesh with it.
 <video src="assets/create_dota_trigger.webm" autoplay loop>
 </video>
 Next, we click "Tie Selected Meshes To Entity" and change the entity to trigger_dota. (I have hammer configured to default to trigger_dota, but it is likely yours defaults to trigger_multiple.)
