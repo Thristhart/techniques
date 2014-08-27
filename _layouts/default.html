@@ -4,6 +4,11 @@
     {% include base.html %}
   </head>
   <body>
-    {{content}}
+    <header>
+      {% include navigation.html %}
+    </header>
+    <div id="content">
+    	{{content}}
+    </div>
   </body>
 </html>
