@@ -7,7 +7,6 @@ defaults:
     values:
       layout: "pages"
 visible-categories: [dota]
-baseurl: /techniques
 kramdown:
   input: GFM
 gems:
