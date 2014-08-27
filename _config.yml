@@ -6,7 +6,7 @@ defaults:
       type: "page"
     values:
       layout: "pages"
-visible-categories: [dota, javascript, programming]
+visible-categories: [dota, javascript]
 kramdown:
   input: GFM
 gems:
