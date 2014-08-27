@@ -21,7 +21,7 @@ The most important part is giving it our custom ability, dota_ability_trap_arrow
 
 It's also important that it has no movement or attack capabilities. You don't want your invisible arrow shooter wandering around and attacking things.
 
-The next step is to define dota_ability_trap_arrow and unselectable. Both are defined in ```scripts\npcs\npc_units_custom.txt```:
+The next step is to define dota_ability_trap_arrow and unselectable. Both are defined in ```scripts\npcs\npc_abilities_custom.txt```:
 
 {% gist Thristhart/1afe255c8daba0f0d32e npc_abilities_custom.txt %}
 
