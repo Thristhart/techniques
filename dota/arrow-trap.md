@@ -55,6 +55,17 @@ That's it as far as Hammer is concerned. I added a little decoration to create t
 
 We're almost done! All that's left is to create the Fire function in  ```scripts\vscripts\arrow_trap_ai.lua``` (or whatever path you put into the Entity Scripts field on your npc_dota_arrow_trap)
 
+{% gist Thristhart/1afe255c8daba0f0d32e arrow_trap_ai.lua %}
 
-(functions)
-(link to repository)
+When an entity in hammer has an EntityScript specified, that script is loaded in when the entity is created. The script is given access to the entity that is associated with it via the ```thisEntity``` variable. Additionally, if an Output triggers a function through CallScriptFunction, the triggering entity is passed in the parameters as ```caller```. With these two things in mind, we can use ```CastAbilityOnPosition``` to fire the arrow at the Origin of the trigger_dota when a player walks into it.
+
+Side note: it is important to note that the ability is being cast at the origin of the trigger_dota. To figure out where the origin of your trigger is, select the Translate tool. As you can see here, the origin of my trigger_dota is in the center of the area, just as I want it to be. You can move and resize the trigger_dota to get the origin to the point where you want it.
+![](assets/arrow_trap_trigger_origin.png)
+
+Finally, as with all things in dota modding, precaching is extremely important.
+
+Since we are using mirana's arrow, we must precache the arrow particle and sound. IF YOU DO NOT PRECACHE THEM, YOU WILL NOT SEE OR HEAR THE ARROW!
+We can do this pretty easily, simply by editing the Precache function in ```scripts\vscripts\addon_game_mode.lua``` 
+{% gist Thristhart/1afe255c8daba0f0d32e addon_game_mode.lua %}
+
+If everything is working properly, you should now have a working arrow trap. This can be easily expanded to all sorts of abilities, even completely custom ones. If you have any comments or questions, hit me up on irc.gamesurge.net channel #dota2mods or on twitter at [@thristhart](http://twitter.com/thristhart)
