@@ -30,7 +30,8 @@ header h1 {
   text-decoration: underline;
 }
 header #navigation {
-  margin-top: 0.1em;
+  position: relative;
+  margin-top: 0.5em;
 }
 footer {
   position: absolute;
