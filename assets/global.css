@@ -35,6 +35,7 @@ header h1 {
 header #navigation {
   position: relative;
   padding-top: 0.5em;
+  margin-top: 0;
 }
 footer {
   position: absolute;
