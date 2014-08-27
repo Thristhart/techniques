@@ -34,14 +34,24 @@ I've also lowered the cooldown to make the trap more responsive, but that's tota
 Now that we've defined our trap NPC, and given it the ability to shoot arrows, we need to hook up the triggers and logic to make it shoot on command.
 
 Our map will eventually look like this:
-![](/assets/arrow_trap_hammer_preview.png)
+![](assets/arrow_trap_hammer_preview.png)
 First things first, we place an npc_dota_base where we want arrows to come from:
 <video src="assets/place_npc_dota_base.webm" autoplay loop>
 </video>
 And then we change its Object Properties so that it has a unique name, so that it will load arrow_trap_ai.lua on creation, and so that it knows that it is an npc_dota_arrow_trap.
 <video src="assets/npc_dota_base_settings.webm" autoplay loop>
 </video>
+Our NPC is ready to be told to shoot arrows, but it needs to be told that by something. That something will be a trigger_dota. First, we select the toolsstrigger.vmat material, and create a mesh with it.
+<video src="assets/create_dota_trigger.webm" autoplay loop>
+</video>
+Next, we click "Tie Mesh To Entity" and change the entity to trigger_dota. (I have hammer configured to default to trigger_dota, but it is likely yours defaults to trigger_multiple.)
+<video src="assets/tie_trigger_dota_entity.webm" autoplay loop>
+</video>
+Finally, we hit Alt+Enter to open up the trigger_dota's detailed object properties. From here, we select the Outputs tab, and click Add to create a new output. We want to respond to a player triggering the trap, so we will use an OnTrigger output. We select the npc_arrow_trap1 that we named earlier (or whatever unique name you used) as the target. The npc_dota_base has an input named CallScriptFunction, which will call a function from the Entity Scripts that are associated with it. We are going to name that function Fire, so we'll use the parameter Fire.
+<video src="assets/trigger_dota_outputs.webm" autoplay loop>
+</video>
+That's it as far as Hammer is concerened. I added a little decoration to create the appearance of a "launcher", but that's completely optional.
+![](assets/arrow_trap_hammer_decoration.png)
 
-(hammer screenshots)
 (functions)
 (link to repository)
