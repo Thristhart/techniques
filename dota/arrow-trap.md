@@ -33,6 +33,15 @@ I've also lowered the cooldown to make the trap more responsive, but that's tota
 
 Now that we've defined our trap NPC, and given it the ability to shoot arrows, we need to hook up the triggers and logic to make it shoot on command.
 
+Our map will eventually look like this:
+![](/assets/arrow_trap_hammer_preview.png)
+First things first, we place an npc_dota_base where we want arrows to come from:
+<video src="assets/place_npc_dota_base.webm" autoplay loop>
+</video>
+And then we change its Object Properties so that it has a unique name, so that it will load arrow_trap_ai.lua on creation, and so that it knows that it is an npc_dota_arrow_trap.
+<video src="assets/npc_dota_base_settings.webm" autoplay loop>
+</video>
+
 (hammer screenshots)
 (functions)
 (link to repository)
