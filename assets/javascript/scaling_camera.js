@@ -75,7 +75,7 @@ function demo(container) {
     }
     return false;
   });
-  canvas.addEventListener("mousewheel", function(event) {
+  canvas.addEventListener("wheel", function(event) {
     var diff = event.wheelDelta
     if(diff < 0) {
       camera.xScale -= camera.speed * camera.xScale;
