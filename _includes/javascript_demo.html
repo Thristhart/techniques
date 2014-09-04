@@ -1,19 +1,4 @@
 <div>
-  <script>
-    // This is necessary because of some screwed-up thing that jekyll and/or kramdown is doing to the html
-    // I can't have any attributes on tags (other than scripts, apparently? who knows why that works)
-    // so if I want to have this div tagged, I need to get clever
-    var divs = document.getElementsByTagName("div")
-    for(var i = 0; i < divs.length; i++) {
-      if(divs[i].className == "") {
-        if(divs[i].children.length == 2) { // 2 child elements
-          if(divs[i].children[0].tagName == "SCRIPT" && divs[i].children[1].tagName == "SCRIPT") { // and they're both scripts
-            divs[i].className = "jsdemo";
-          }
-        }
-      }
-    }
-  </script>
   <script src="assets/javascript/{{include.demoname}}.js">
   </script>
 </div>
