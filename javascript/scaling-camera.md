@@ -13,4 +13,4 @@ Here is a demo of what we'll be building today:
 Let's take a look at the source. We'll skip over some unimportant stuff (code for getting input and drawing the grid) and focus on the camera controls and applying the camera state to our rendering and logic.
 
 Here's the main meat of the thing, our drawFrame function.
-<script src="http://gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/javascript/scaling_camera.js"></script>
+<script src="http://gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/javascript/scaling_camera.js?slice=9:25"></script>
