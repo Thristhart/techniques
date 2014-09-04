@@ -19,6 +19,7 @@ header h1 {
   letter-spacing: 0.1em;
   margin-bottom: 0;
 }
+
 #navigation li {
   list-style-type: none;
   display: inline;
@@ -58,10 +59,14 @@ footer {
   margin-bottom: 1.7em;
   line-height: 1.4;
 }
-#content video, article img {
+#content video, article img, .demo {
   margin: auto;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   display: block;
   max-width: 100%;
+}
+
+.demo input {
+  float: right;
 }
