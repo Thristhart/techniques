@@ -77,11 +77,11 @@ function demo(container) {
   });
   canvas.addEventListener("wheel", function(event) {
     var diff = event.deltaY
-    if(diff < 0) {
+    if(diff > 0) {
       camera.xScale -= camera.speed * camera.xScale;
       camera.yScale -= camera.speed * camera.yScale;
     }
-    if(diff > 0) {
+    if(diff < 0) {
       camera.xScale += camera.speed * camera.xScale;
       camera.yScale += camera.speed * camera.yScale;
     }
