@@ -70,5 +70,5 @@ footer {
 img.inline {
   margin: 0;
   display: initial;
-  text-align: bottom;
+  vertical-align: bottom;
 }
