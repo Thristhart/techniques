@@ -66,3 +66,8 @@ footer {
   display: block;
   max-width: 100%;
 }
+
+img.inline {
+  margin: 0;
+  display: initial;
+}
