@@ -7,14 +7,16 @@ function demo(container) {
   diagMode.type = "radio";
   diagMode.name = "mode";
   diagMode.checked = true;
+  diagMode.value = "Diagonal";
   var rectMode = document.createElement("input");
   rectMode.type = "radio";
   rectMode.name = "mode";
+  rectMode.value = "Rectangular";
   
   container.appendChild(diagMode);
   container.appendChild(rectMode);
   
-  diagMode.addEventListener("changed", function(event) {
+  diagMode.addEventListener("change", function(event) {
     if(diagMode.selected)
       mode = "diagonal";
     else
