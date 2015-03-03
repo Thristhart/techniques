@@ -16,9 +16,9 @@ function demo(container) {
   rectMode.value = "Rectangular";
   
   var rectLabel = document.createElement("label");
-  rectLabel.innerText = "Rectangular";
+  rectLabel.innerHTML = "Rectangular";
   var diagLabel = document.createElement("label");
-  diagLabel.innerText = "Diagonal";
+  diagLabel.innerHTML = "Diagonal";
   
   diagLabel.appendChild(diagMode);
   rectLabel.appendChild(rectMode);
