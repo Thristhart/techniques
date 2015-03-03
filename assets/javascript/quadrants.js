@@ -31,8 +31,8 @@ function demo(container) {
       // top
       context.beginPath();
       context.moveTo(0, 0);
-      context.lineTo(this.canvas.width / 2, this.canvas.height / 2);
-      context.lineTo(this.canvas.width, 0);
+      context.lineTo(canvas.width / 2, canvas.height / 2);
+      context.lineTo(canvas.width, 0);
       context.closePath();
       context.stroke();
     }
