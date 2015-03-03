@@ -20,6 +20,6 @@ We determine which vertical half contains the point by dividing the height by tw
 
 For diagonals, however, it's not as simple. Instead, we will have to return to basic algebra for our solution.
 
-Consider that the slope of a line is Rise over Run; ie <img src="http://www.sciweavers.org/tex2img.php?eq=%5Cfrac%7B%20%5CDelta%20y%7D%7B%20%5CDelta%20x%7D%20&bc=Transparent&fc=Black&im=jpg&fs=12&ff=arev&edit=0" class="inline" alt="Delta Y over Delta X" />. It follows that the slope of the diagonal of a rectangle is height / width. This gives us an equation we can use to calculate where any given Y value is on the diagonal, given an x value.
+Consider that the slope of a line is Rise over Run; ie <img src="assets/deltayoverdeltax.png" class="inline" alt="Delta Y over Delta X" />. It follows that the slope of the diagonal of a rectangle is height / width. This gives us an equation we can use to calculate where any given Y value is on the diagonal, given an x value.
 
-Let's say we have a rectangle with a width of 10 and a height of 5. The slope of its diagonal is <img src="http://www.sciweavers.org/tex2img.php?eq=y%20%3D%20%5Cfrac%7B5%7D%7B10%7Dx%20&bc=Transparent&fc=Black&im=jpg&fs=12&ff=arev&edit=0" class="inline" alt="y=5/10x" />. 
+Let's say we have a rectangle with a width of 10 and a height of 5. The slope of its diagonal is <img src="assets/yequals510x.png" class="inline" alt="y=5/10x" />.
