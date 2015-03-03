@@ -30,14 +30,14 @@ Here is a graph of this equation, with the rectangle superimposed:
 For any given point on that line, if the Y value of the cursor is greater than the Y value of the point on the line that corresponds to the X value of the cursor, we know that the cursor is in the top-left corner.
 
 In other words, 
-```
+{% highlight javascript %}
 if(y > height / width * x) {
 	/* top left corner */
 }
 else {
 	/* bottom right corner */
 }
-```
+{% endhighlight %}
 Now that we've identified which half of the rectangle the point is in, we need to divide the rectangle in the other direction. If the slope of one diagonal is <img src="assets/diagonal_equation.png" class="inline" alt="f(x)=height/widthx" />, then the other diagonal is <img src="assets/other_diagonal_equation.png" class="inline" alt="f(x)=-height/widthx + height" />.
 
 ![](assets/example_graph_2.png)
