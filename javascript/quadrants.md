@@ -41,3 +41,15 @@ else {
 Now that we've identified which half of the rectangle the point is in, we need to divide the rectangle in the other direction. If the slope of one diagonal is <img src="assets/diagonal_equation.png" class="inline" alt="f(x)=height/widthx" />, then the other diagonal is <img src="assets/other_diagonal_equation.png" class="inline" alt="f(x)=-height/widthx + height" />.
 
 ![](assets/example_graph_2.png)
+If we use this equation in a conditional, we can figure out the last remaining corner:
+{% highlight javascript %}
+if(y > -height / width * x + height) {
+	/* left or bottom */
+}
+else {
+	/* top or right */
+}
+{% endhighlight %}
+
+Putting them together, here is my implementation of diagonal quadrant detection:
+<script src="http://gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/javascript/quadrants.js?slice=50:72"></script>
