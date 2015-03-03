@@ -23,3 +23,21 @@ For diagonals, however, it's not as simple. Instead, we will have to return to b
 Consider that the slope of a line is Rise over Run; ie <img src="assets/deltayoverdeltax.png" class="inline" alt="Delta Y over Delta X" />. It follows that the slope of the diagonal of a rectangle is height / width. This gives us an equation we can use to calculate where any given Y value is on the diagonal, given an x value.
 
 Let's say we have a rectangle with a width of 10 and a height of 5. The slope of its diagonal is <img src="assets/yequals510x.png" class="inline" alt="y=5/10x" />.
+
+Here is a graph of this equation, with the rectangle superimposed:
+![](assets/example_graph_1.png)
+
+For any given point on that line, if the Y value of the cursor is greater than the Y value of the point on the line that corresponds to the X value of the cursor, we know that the cursor is in the top-left corner.
+
+In other words, 
+```
+if(y > height / width * x) {
+	/* top left corner */
+}
+else {
+	/* bottom right corner */
+}
+```
+Now that we've identified which half of the rectangle the point is in, we need to divide the rectangle in the other direction. If the slope of one diagonal is <img src="assets/diagonal_equation.png" class="inline" alt="f(x)=height/widthx" />, then the other diagonal is <img src="assets/other_diagonal_equation.png" class="inline" alt="f(x)=-height/widthx + height" />.
+
+![](assets/example_graph_2.png)
