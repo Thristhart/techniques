@@ -15,7 +15,7 @@ There are two main ways of forming quadrants for a rectangle: diagonal and recta
 The difference is in whether you split it into four smaller rectangles via parallel lines, or four smaller triangles via the diagonals.
 
 For rectangular quadrants, calculating which quadrant a point is contained in is easy and straightforward:
-<script src="http://gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/javascript/quadrants.js?slice=72:87"></script>
+<script src="://gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/javascript/quadrants.js?slice=72:87"></script>
 We determine which vertical half contains the point by dividing the height by two, and the same for the horizontal half with the width. Combining the two values gives us one of the four potential corners.
 
 For diagonals, however, it's not as simple. Instead, we will have to return to basic algebra for our solution.
@@ -52,4 +52,4 @@ else {
 {% endhighlight %}
 
 Putting them together, here is my implementation of diagonal quadrant detection:
-<script src="http://gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/javascript/quadrants.js?slice=50:71"></script>
+<script src="://gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/javascript/quadrants.js?slice=50:71"></script>
