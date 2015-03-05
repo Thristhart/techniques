@@ -5,7 +5,7 @@
   {% include base.html %}
   <body>
 {% capture category %}{{page.path | replace_first:'/index.md',''}}{% endcapture %}
-    <header>
+    <header id="titlehead">
       {% include navigation.html %}
       <h1>{{ page.title }}</h1>
     </header>
@@ -17,5 +17,10 @@
 {% endfor %}
     </ul>
     {{ content }}
+    <script src="https://cdn.rawgit.com/btmills/geopattern/b3a5898c9b15b1850596f19573917b9e3d7f1949/js/geopattern.min.js"></script>
+  	<script>
+      var pattern = GeoPattern.generate('Technique Repository');
+  		document.getElementById("titlehead").style.backgroundImage = pattern.toDataUrl();
+  	</script>
   </body>
 </html>
