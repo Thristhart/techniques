@@ -19,7 +19,7 @@
     {{ content }}
     <script src="https://cdn.rawgit.com/btmills/geopattern/b3a5898c9b15b1850596f19573917b9e3d7f1949/js/geopattern.min.js"></script>
   	<script>
-      var pattern = GeoPattern.generate({{ page.title }});
+      var pattern = GeoPattern.generate('{{ page.title }}');
   		document.getElementById("titlehead").style.backgroundImage = pattern.toDataUrl();
   	</script>
   </body>
