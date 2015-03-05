@@ -4,12 +4,17 @@
     {% include base.html %}
   </head>
   <body>
-    <header>
+    <header id="titlehead">
       {% include navigation.html %}
       <h1>{{ page.title }}</h1>
     </header>
     <div id="content">
     	{{content}}
     </div>
+  	<script src="https://cdn.rawgit.com/btmills/geopattern/b3a5898c9b15b1850596f19573917b9e3d7f1949/js/geopattern.min.js"></script>
+  	<script>
+      var pattern = GeoPattern.generate('{{page.title}}');
+  		document.getElementById("titlehead").style.backgroundImage = pattern.toDataUrl();
+  	</script>
   </body>
 </html>
