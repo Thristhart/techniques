@@ -20,9 +20,35 @@
    		background-color: coral;
     }
 }
+@-webkit-keyframes attempt1 {
+    0% {
+       	background-color: yellowgreen;
+    }
+    50% {
+    	background-color: cornflowerblue;
+    }
+    100% {
+  		background-color: coral;
+    }
+ }
+@keyframes attempt1 {
+    0% {
+    	background-color: yellowgreen;
+    }
+    50% {
+    	background-color: cornflowerblue;
+    }
+    100% {
+   		background-color: coral;
+    }
+}
 .final {
 	-webkit-animation: final 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
 	animation: final 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
+}
+.attempt1 {
+	-webkit-animation: attempt1 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
+	animation: attempt1 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
 }
 .banner {
     width: 100%;
