@@ -33,7 +33,7 @@ more gist here
 
 But now there's a new problem. Watch how Frame3 fades to a different color altogether before switching to Frame1!
 
-<div class="banner attempt3"></div>
+<div class="banner attempt2"></div>
 
 This is because, according to the [CSS3 Animation Spec](http://www.w3.org/TR/css3-animations/#keyframes),
 > If a ‘0%’ or ‘from’ keyframe is not specified, then the user agent constructs a ‘0%’
