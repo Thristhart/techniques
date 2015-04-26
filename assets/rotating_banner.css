@@ -1,6 +1,6 @@
 @-webkit-keyframes final {
     0% {
-       	background-color: beige;
+       	background-color: yellowgreen;
     }
     33% {
     	background-color: cornflowerblue;
@@ -11,7 +11,7 @@
  }
 @keyframes final {
     0% {
-    	background-color: beige;
+    	background-color: yellowgreen;
     }
     33% {
     	background-color: cornflowerblue;
