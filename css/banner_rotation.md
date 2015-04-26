@@ -36,6 +36,7 @@ But now there's a new problem. Watch how Frame3 fades to a different color altog
 <div class="banner attempt2"></div>
 
 This is because, according to the [CSS3 Animation Spec](http://www.w3.org/TR/css3-animations/#keyframes),
+
 > If a ‘0%’ or ‘from’ keyframe is not specified, then the user agent constructs a ‘0%’
 keyframe using the computed values of the properties being animated. If a ‘100%’ or ‘to’
 keyframe is not specified, then the user agent constructs a ‘100%’ keyframe using the
