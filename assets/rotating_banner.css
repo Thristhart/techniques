@@ -6,7 +6,7 @@
     	background-color: cornflowerblue;
     }
     66% {
-  		background-color: coral
+  		background-color: coral;
     }
     100% {
   		background-color: beige;
@@ -20,14 +20,14 @@
     	background-color: cornflowerblue;
     }
     66% {
-   		background-color: coral
+   		background-color: coral;
     }
     100% {
     	background-color: beige;
     }
 }
 .final {
-	-webkit-animation: final 8s linear infinite;
+	-webkit-animation: final 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
 }
 .banner {
     width: 100%;
