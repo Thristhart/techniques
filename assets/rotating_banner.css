@@ -8,9 +8,6 @@
     66% {
   		background-color: coral;
     }
-    100% {
-  		background-color: beige;
-    }
  }
 @keyframes final {
     0% {
@@ -21,9 +18,6 @@
     }
     66% {
    		background-color: coral;
-    }
-    100% {
-    	background-color: beige;
     }
 }
 .final {
