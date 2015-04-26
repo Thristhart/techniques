@@ -20,4 +20,5 @@ Since we're using 3 stages, it might seem reasonable to split it to 0%, 50% and 
 gist insert goes here
 
 But that ends up looking like this - notice the transition between Frame3 and Frame1 happens instantly.
+
 <div class="banner attempt1"></div>
