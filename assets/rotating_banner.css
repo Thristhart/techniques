@@ -70,6 +70,22 @@
    		background-color: coral;
     }
 }
+@-webkit-keyframes easeDemo {
+    0% {
+       	width: 100%;
+    }
+    100% {
+  		width: 20%;
+    }
+ }
+@keyframes easeDemo {
+    0% {
+       	width: 100%;
+    }
+    100% {
+  		width: 20%;
+    }
+}
 .final {
 	-webkit-animation: final 8s cubic-bezier(1, 0, 0.7, 0) infinite;
 	animation: final 8s cubic-bezier(1, 0, 0.7, 0) infinite;
@@ -81,6 +97,10 @@
 .attempt2 {
 	-webkit-animation: attempt2 8s cubic-bezier(1, 0, 0.7, 0) infinite;
 	animation: attempt2 8s cubic-bezier(1, 0, 0.7, 0) infinite;
+}
+.easeDemo {
+	-webkit-animation: easeDemo 4s infinite;
+	animation: easeDemo 4s infinite;
 }
 .banner {
     width: 100%;
