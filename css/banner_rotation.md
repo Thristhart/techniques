@@ -7,12 +7,6 @@ published: true
 ---
 
 <link rel="stylesheet" href="assets/rotating_banner.css"/>
-<script src="assets/javascript/bezier.js"></script>
-<script>
-function visualizeBezier(query) {
-	var banner = document.querySelector(query);
-}
-</script>
 
 Here's what we're building today:
 
