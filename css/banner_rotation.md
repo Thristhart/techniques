@@ -6,6 +6,20 @@ categories:
 published: true
 ---
 <style>
+	@-webkit-keyframes final {
+    	0% {
+        	background-color: beige;
+        }
+        33% {
+        	background-color: cornflowerblue;
+        }
+        66% {
+       		background-color: coral
+        }
+        100% {
+        	background-color: beige;
+        }
+    }
 	@keyframes final {
     	0% {
         	background-color: beige;
