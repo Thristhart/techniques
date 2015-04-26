@@ -22,3 +22,9 @@ gist insert goes here
 But that ends up looking like this - notice the transition between Frame3 and Frame1 happens instantly.
 
 <div class="banner attempt1"></div>
+
+This is because there's no space between the 0% and 100% points in the animation. Essentially, the 0% and 100% points are the same, if the animation is going to repeat.
+<img src="assets/animation_timeline_3.png" />
+
+In order to solve this, we need to put more space between the last frame and the first frame. 100% divided by the number of frames = ~33%. So let's change the placement to intervals of 33: 0%, 33% and 66%.
+<img src="assets/animation_timeline_4.png" />
