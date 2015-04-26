@@ -22,6 +22,7 @@
 }
 .final {
 	-webkit-animation: final 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
+	animation: final 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
 }
 .banner {
     width: 100%;
