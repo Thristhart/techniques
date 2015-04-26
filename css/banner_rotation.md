@@ -48,3 +48,10 @@ So even though we didn't specify a 100% frame, there is a hidden 100% frame gene
 last keyframe gist
 
 Now that we've figured out the keyframes, let's talk about timing functions. The timing function is a mathematical function that describes how fast a one-dimensional value changes over the course of an animation. The default timing function for an animation is _ease_. Take a look at the [MDN article on timing functions](https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function). 
+
+The _ease_ timing function looks like this:
+<img src="https://mdn.mozillademos.org/files/3429/cubic-bezier,ease.png" />
+
+Notice how it is very curvy, and thus is constantly transitioning. This is ideal for something like moving an element or changing the width of an element, because the movement looks smooth:
+
+<div class="banner easeDemo"></div>
