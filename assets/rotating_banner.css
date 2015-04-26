@@ -8,6 +8,9 @@
     66% {
   		background-color: coral;
     }
+  	100% {
+    	background-color: yellowgreen;
+  	}
  }
 @keyframes final {
     0% {
@@ -19,6 +22,9 @@
     66% {
    		background-color: coral;
     }
+  	100% {
+    	background-color: yellowgreen;
+  	}
 }
 @-webkit-keyframes attempt1 {
     0% {
