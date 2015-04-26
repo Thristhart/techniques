@@ -99,8 +99,8 @@
 	animation: attempt2 8s cubic-bezier(1, 0, 0.7, 0) infinite;
 }
 .easeDemo {
-	-webkit-animation: easeDemo 4s infinite;
-	animation: easeDemo 4s infinite;
+	-webkit-animation: easeDemo 4s infinite alternate;
+	animation: easeDemo 4s infinite alternate;
 }
 .banner {
     width: 100%;
