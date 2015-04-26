@@ -71,16 +71,16 @@
     }
 }
 .final {
-	-webkit-animation: final 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
-	animation: final 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
+	-webkit-animation: final 8s cubic-bezier(1, 0, 0.7, 0) infinite;
+	animation: final 8s cubic-bezier(1, 0, 0.7, 0) infinite;
 }
 .attempt1 {
-	-webkit-animation: attempt1 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
-	animation: attempt1 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
+	-webkit-animation: attempt1 8s cubic-bezier(1, 0, 0.7, 0) infinite;
+	animation: attempt1 8s cubic-bezier(1, 0, 0.7, 0) infinite;
 }
 .attempt2 {
-	-webkit-animation: attempt2 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
-	animation: attempt2 8s cubic-bezier(1, 0, 0.7, -0.2) infinite;
+	-webkit-animation: attempt2 8s cubic-bezier(1, 0, 0.7, 0) infinite;
+	animation: attempt2 8s cubic-bezier(1, 0, 0.7, 0) infinite;
 }
 .banner {
     width: 100%;
