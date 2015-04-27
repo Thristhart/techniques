@@ -55,3 +55,17 @@ The _ease_ timing function looks like this:
 Notice how it is very curvy, and thus is constantly transitioning. This is ideal for something like moving an element or changing the width of an element, because the movement looks smooth:
 
 <div class="banner easeDemo"></div>
+
+However, for our banner, we want it to stay on one state for some time and then transition smoothly to the next one. Here's how our banner would look with the default easing function:
+
+<div class="banner attempt3"></div>
+
+The colors are constantly blending in to each other, and if there was text on one of the frames it would be unreadable. In order to fix this, we need to use some sort of timing function with a flat line, that sharply transitions to the next frame afterwords.
+<img src="images/cubic-bezier.png" />
+
+Lea Verou has an awesome tool at [cubic-bezier.com](http://cubic-bezier.com/#1,0,.7,0) that allows you to quickly graph and test cubic bezier timing functions. Using it I put together the function `cubic-bezier(1, 0, 0.7, 0)`. With this timing function, we have all the tools we need to build the rotating banner.
+
+
+<div class="banner final"></div>
+
+gist goes here
