@@ -69,19 +69,6 @@ Lea Verou has an awesome tool at [cubic-bezier.com](http://cubic-bezier.com/#1,0
 
 <div class="banner final"></div>
 
-{% highlight css %}
-@keyframes final {
-    0%, 100% {
-    	background-color: yellowgreen;
-    }
-    33% {
-    	background-color: cornflowerblue;
-    }
-    66% {
-   		background-color: coral;
-    }
-}
-.banner.final {
-	animation: final 8s cubic-bezier(1, 0, 0.7, 0) infinite;
-}
-{% endhighlight %}
+<script src="//gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/rotating_banner.css?slice=11:21"></script>
+
+<script src="//gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/rotating_banner.css?slice=82:85"></script>
