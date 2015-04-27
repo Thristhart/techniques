@@ -1,84 +1,84 @@
 @-webkit-keyframes final {
-    0%, 100% {
-       	background-color: yellowgreen;
-    }
-    33% {
-    	background-color: cornflowerblue;
-    }
-    66% {
-  	background-color: coral;
-    }
- }
+	0%, 100% {
+		background-color: yellowgreen;
+	}
+	33% {
+		background-color: cornflowerblue;
+	}
+	66% {
+		background-color: coral;
+	}
+}
 @keyframes final {
-    0%, 100% {
-    	background-color: yellowgreen;
-    }
-    33% {
-    	background-color: cornflowerblue;
-    }
-    66% {
-   	background-color: coral;
-    }
+	0%, 100% {
+		background-color: yellowgreen;
+	}
+	33% {
+		background-color: cornflowerblue;
+	}
+	66% {
+		background-color: coral;
+	}
 }
 @-webkit-keyframes attempt1 {
-    0% {
-       	background-color: yellowgreen;
-    }
-    50% {
-    	background-color: cornflowerblue;
-    }
-    100% {
-  	background-color: coral;
-    }
- }
+	0% {
+		background-color: yellowgreen;
+	}
+	50% {
+		background-color: cornflowerblue;
+	}
+	100% {
+		background-color: coral;
+	}
+}
 @keyframes attempt1 {
-    0% {
-    	background-color: yellowgreen;
-    }
-    50% {
-    	background-color: cornflowerblue;
-    }
-    100% {
-   	background-color: coral;
-    }
+	0% {
+		background-color: yellowgreen;
+	}
+	50% {
+		background-color: cornflowerblue;
+	}
+	100% {
+		background-color: coral;
+	}
 }
 @-webkit-keyframes attempt2 {
-    0% {
-       	background-color: yellowgreen;
-    }
-    33% {
-    	background-color: cornflowerblue;
-    }
-    66% {
-  	background-color: coral;
-    }
- }
+	0% {
+		background-color: yellowgreen;
+	}
+	33% {
+		background-color: cornflowerblue;
+	}
+	66% {
+		background-color: coral;
+	}
+}
 @keyframes attempt2 {
-    0% {
-    	background-color: yellowgreen;
-    }
-    33% {
-    	background-color: cornflowerblue;
-    }
-    66% {
-   	background-color: coral;
-    }
+	0% {
+		background-color: yellowgreen;
+	}
+	33% {
+		background-color: cornflowerblue;
+	}
+	66% {
+		background-color: coral;
+	}
 }
 @-webkit-keyframes easeDemo {
-    0% {
-       	width: 100%;
-    }
-    100% {
-  	width: 20%;
-    }
- }
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 20%;
+	}
+}
 @keyframes easeDemo {
-    0% {
-       	width: 100%;
-    }
-    100% {
-  	width: 20%;
-    }
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 20%;
+	}
 }
 .final {
 	-webkit-animation: final 8s cubic-bezier(1, 0, 0.7, 0) infinite;
@@ -101,7 +101,7 @@
 	animation: easeDemo 4s infinite alternate;
 }
 .banner {
-    width: 100%;
-    height: 4em;
-    background-color: pink;
+	width: 100%;
+	height: 4em;
+	background-color: pink;
 }
