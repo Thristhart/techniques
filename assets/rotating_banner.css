@@ -98,6 +98,10 @@
 	-webkit-animation: attempt2 8s cubic-bezier(1, 0, 0.7, 0) infinite;
 	animation: attempt2 8s cubic-bezier(1, 0, 0.7, 0) infinite;
 }
+.attempt3 {
+	-webkit-animation: final 8s infinite;
+	animation: final 8s infinite;
+}
 .easeDemo {
 	-webkit-animation: easeDemo 4s infinite alternate;
 	animation: easeDemo 4s infinite alternate;
