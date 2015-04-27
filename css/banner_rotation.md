@@ -19,7 +19,7 @@ Our first step is to build a set of keyframes, which represent each state in our
 Since we're using 3 stages, it might seem reasonable to split it to 0%, 50% and 100%:
 <img src="assets/animation_timeline_2.png" />
 
-<script src="//gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/rotating_banner.css?slice=40:50"></script>
+<script src="//gist-it.appspot.com/github/Thristhart/techniques/blob/gh-pages/assets/rotating_banner.css?slice=34:44"></script>
 
 But that ends up looking like this - notice the transition between Frame3 and Frame1 happens instantly.
 
