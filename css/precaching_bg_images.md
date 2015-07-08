@@ -1,5 +1,5 @@
 ---
-title: Precaching background images with pure CSS
+title: Precaching background images
 categories: 
   - css
   - design

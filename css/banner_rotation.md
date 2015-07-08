@@ -1,5 +1,5 @@
 ---
-title: Creating a rotating banner animation in pure CSS
+title: Creating a rotating banner animation
 categories: 
   - css
   - design
