@@ -12,13 +12,15 @@ Let's say you've got a design you're building, where it's important that a key p
   margin: auto;
   text-align: center;
   background-color: white;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 .banner {
   width: 300px;
   height: 50px;
 }
 .panel {
-  width: 200px;
+  width: 100px;
   height: 100px;
 }
 .banner.solution em:before {
@@ -34,6 +36,7 @@ em {
 
 So adding a `<br />` before the text won't work, because we want to be able to reuse the text without the new line.
 Text doesn't normally wrap like that - usually, the second line will be shorter than the first line:
+
 <div class="demo banner">Buy one cool design, get <em>two free</em> dirty CSS hacks!</div>
 
 So how do we force a new line to appear in front of an arbitrary element? You might be tempted to do something like:
