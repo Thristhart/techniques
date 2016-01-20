@@ -40,7 +40,7 @@ And here's `~/.bash_prompt`:
 
 `~/.git-prompt.sh` is <a href="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh">git-prompt.sh</a>, a very useful helper script for putting git repo status in your prompt.
 
-I combine it plus the date function to get the `data` variable, which looks something like: "encode-task u= origin/encode-task | 02:50:09 PM". Then I subtract the length of that from the width of the terminal to get how many "filler" characters I need to build the seperator. Finally I use printf and some substitution magic to generate exactly enough dashes to fill the width of the terminal + the miscellaneous data.
+I combine it plus the date function to get the `data` variable, which looks something like: `encode-task u= origin/encode-task | 02:50:09 PM`. Then I subtract the length of that from the width of the terminal to get how many "filler" characters I need to build the seperator. Finally I use printf and some substitution magic to generate exactly enough dashes to fill the width of the terminal + the miscellaneous data.
 
 Here's what this ends up looking like:
 ![bash_prompt.png](assets/bash_prompt.png)
