@@ -44,3 +44,7 @@ I combine it plus the date function to get the `data` variable, which looks some
 
 Here's what this ends up looking like:
 ![bash_prompt.png](assets/bash_prompt.png)
+
+Next step is to get XCode, which has build tools and most importantly comes with iOS Simulator, which is very useful for testing a variety of configurations of Safari for our ad builds.
+
+I'm using Xcode-beta, (as of this writing, version 7.3) because I like experimental features. I launch iOS Simulator via right clicking on the Xcode dock icon, Open Developer Tool, Simulator. I then pin the iOS simulator to the dock in the same way I pinned Terminal so that I don't need to launch XCode to open iOS simulator.
