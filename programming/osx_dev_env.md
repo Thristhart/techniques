@@ -14,9 +14,12 @@ Then I go into the terminal settings and add background transparency, because it
 
 Now we want to set up a nice bash prompt. I like having a seperator to visually separate commands. I'd also like to have some useful information such as timestamp, current directory and git status on my prompt. All of this becomes a bit unwieldy to put in PS1, so I'm using PROMPT_COMMAND and a bash file at `~/.bash_prompt`. 
 Here's my `~/.profile`:
+
     export PROMPT_COMMAND='~/.bash_prompt'
     export PS1="\033[33m\w)\e[0m ";
+    
 And here's `~/.bash_prompt`:
+
     #!/bin/bash
     source ~/.git-prompt.sh
     
