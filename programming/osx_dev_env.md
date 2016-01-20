@@ -49,3 +49,5 @@ Here's what this ends up looking like:
 Next step is to get XCode, which has build tools and most importantly comes with iOS Simulator, which is very useful for testing a variety of configurations of Safari for our ad builds.
 
 I'm using Xcode-beta, (as of this writing, version 7.3) because I like experimental features. I launch iOS Simulator via right clicking on the Xcode dock icon, Open Developer Tool, Simulator. I then pin the iOS simulator to the dock in the same way I pinned Terminal so that I don't need to launch XCode to open iOS simulator.
+
+I use the [Dev channel](https://www.google.com/chrome/browser/desktop/index.html?platform=mac&extra=devchannel) for Chrome, which has the best balance of stability to cool features. (There's a lot of even cooler features in Canary, but it's not stable enough for production use.)
