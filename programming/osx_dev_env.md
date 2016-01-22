@@ -5,6 +5,7 @@ categories:
   - programming
 published: true
 ---
+
 As a front end engineer at [Verve](https://vervemobile.com) I've had to get used to working on a macbook -- not exactly the linux-over-ssh development environment I'm used to. But OSX is still Unix, and it doesn't take too much tweaking to make it very nice. Here's my ad development setup:
 <h2>Terminal</h2>
 First step is to pin the terminal to the dock, because I use it all the time.
@@ -50,4 +51,10 @@ Next step is to get XCode, which has build tools and most importantly comes with
 
 I'm using Xcode-beta, (as of this writing, version 7.3) because I like experimental features. I launch iOS Simulator via right clicking on the Xcode dock icon, Open Developer Tool, Simulator. I then pin the iOS simulator to the dock in the same way I pinned Terminal so that I don't need to launch XCode to open iOS simulator.
 
+[Homebrew](http://brew.sh/) is a package manager for OSX and is a lifesaver. I've used it to install node (`brew install node`) and cmake.
+
 I use the [Dev channel](https://www.google.com/chrome/browser/desktop/index.html?platform=mac&extra=devchannel) for Chrome, which has the best balance of stability to cool features. (There's a lot of even cooler features in Canary, but it's not stable enough for production use.)
+
+<h2>Text editor</h2>
+I'm a big Vim fan, especially because of the very large number of plugins and community configuration available for it. I use [Macvim](https://github.com/b4winckler/macvim) with [YouCompleteMe](https://github.com/Valloric/YouCompleteMe), compiled with clang and [tern](https://github.com/ternjs/tern_for_vim) support.
+
