@@ -6,6 +6,7 @@ categories:
 published: true
 ---
 
+
 As a front end engineer at [Verve](https://vervemobile.com) I've had to get used to working on a macbook -- not exactly the linux-over-ssh development environment I'm used to. But OSX is still Unix, and it doesn't take too much tweaking to make it very nice. Here's my ad development setup:
 <h2>Terminal</h2>
 First step is to pin the terminal to the dock, because I use it all the time.
@@ -17,7 +18,10 @@ Now we want to set up a nice bash prompt. I like having a seperator to visually 
 Here's my `~/.profile`:
 
     export PROMPT_COMMAND='export PROMPT=$(~/.bash_prompt)'
-    export PS1="\$PROMPT\n\033[33m\w)\e[0m ";
+    yellow=$(tput setaf 3)
+    reset=$(tput sgr0)
+    export PS1="\$PROMPT\n\[$yellow\]\w)\[$reset\] ";
+
     
 And here's `~/.bash_prompt`:
 
@@ -37,7 +41,8 @@ And here's `~/.bash_prompt`:
     s=$(printf "%*s" $cols);
     export PROMPT_SEPERATOR=$(echo "${s// /―}");
     
-    echo -e "\033[32m$PROMPT_SEPERATOR$(tput bold)$data$(tput sgr0)"
+    echo -e "$(tput setaf 2)$PROMPT_SEPERATOR$(tput bold)$data$(tput sgr0)"
+
 
 `~/.git-prompt.sh` is <a href="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh">git-prompt.sh</a>, a very useful helper script for putting git repo status in your prompt.
 
@@ -57,4 +62,3 @@ I use the [Dev channel](https://www.google.com/chrome/browser/desktop/index.html
 
 <h2>Text editor</h2>
 I'm a big Vim fan, especially because of the very large number of plugins and community configuration available for it. I use [Macvim](https://github.com/b4winckler/macvim) with [YouCompleteMe](https://github.com/Valloric/YouCompleteMe), compiled with clang and [tern](https://github.com/ternjs/tern_for_vim) support.
-
